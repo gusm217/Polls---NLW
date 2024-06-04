@@ -4,7 +4,7 @@ CREATE TABLE "Vote" (
     "sessionId" TEXT NOT NULL,
     "pollId" TEXT NOT NULL,
     "pollOptionId" TEXT NOT NULL,
-    "CreatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT "Vote_pkey" PRIMARY KEY ("id")
 );
