@@ -12,6 +12,7 @@ A real-time voting system where users can create a poll and other users can cast
 * Install dependencies (npm install);
 * Setup PostgreSQL and Redis (docker compose up-d);
 * Copy .env.example file (cp .env.example .env);
+* Run migrations (npm run migrate);
 * Run application (npm run dev);
 * Test it! (tested with [Hoppscotch](https://hoppscotch.io/)).
 
