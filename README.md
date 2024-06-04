@@ -88,7 +88,7 @@ Add a vote to specific poll.
 }
 ```
 
-## WEBSOCKET - ws`/polls/:pollId/results`
+## WebSocket - ws`/polls/:pollId/results`
 
 **Message**
 
