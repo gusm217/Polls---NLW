@@ -1,6 +1,7 @@
 {
 	"scripts": {
-		"dev": "tsx watch src/http/server.ts"
+		"dev": "npx prisma migrate dev && tsx watch src/http/server.ts"
+
 	},
 	"devDependencies": {
 		"@types/node": "^20.12.13",

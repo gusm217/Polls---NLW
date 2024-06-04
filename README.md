@@ -98,4 +98,3 @@ Add a vote to specific poll.
   "votes": 2
 }
 ```
-
